@@ -82,6 +82,7 @@ def gross_per_studio(collection)
   
   collection_index = 0 
   studio_hash = {}
+  binding.pry
   while collection_index < collection.length do 
     studio = collection[collection_index][:studio]
     gross = collection[collection_index][:worldwide_gross]
